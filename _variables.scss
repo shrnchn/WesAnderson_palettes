@@ -1,0 +1,40 @@
+// -------------------------------------------
+// VARIABLES
+// -------------------------------------------
+
+// Colours
+// -------------------------------------------
+$yellow: #FFCD22;
+$black: #444;
+
+// Typography
+// -------------------------------------------
+$openSans:'Open Sans', sans-serif;
+
+// Font weights
+// -------------------------------------------
+$light: 300;
+$normal: 400;
+$bold: 700;
+
+
+@mixin lightFont {
+  font-family: $openSans;
+  font-weight: $light;
+}
+
+@mixin normalFont {
+  font-family: $openSans;
+  font-weight: $normal;
+}
+
+@mixin boldFont{
+  font-family: $openSans;
+  font-weight: $bold;
+}
+
+
+
+
+
+

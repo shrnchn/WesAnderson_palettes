@@ -1,0 +1,431 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600,700);
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+  display: block;
+}
+
+audio, canvas, progress, video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+[hidden], template {
+  display: none;
+}
+
+a {
+  background: transparent;
+}
+
+a:active, a:hover {
+  outline: 0;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+dfn {
+  font-style: italic;
+}
+
+h1 {
+  font-size: 2em;
+  margin: .67em 0;
+}
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -.5em;
+}
+
+sub {
+  bottom: -.25em;
+}
+
+img {
+  border: 0;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+figure {
+  margin: 1em 40px;
+}
+
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+code, kbd, pre, samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+button, input, optgroup, select, textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+button {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, html input[type=button],
+input[type=reset], input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+button[disabled], html input[disabled] {
+  cursor: default;
+}
+
+input {
+  line-height: normal;
+}
+
+input[type=checkbox], input[type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+input[type=search] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: .35em .625em .75em;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td, th {
+  padding: 0;
+}
+
+b, strong, optgroup {
+  font-weight: 700;
+}
+
+pre, textarea {
+  overflow: auto;
+}
+
+button::-moz-focus-inner, input::-moz-focus-inner, legend {
+  border: 0;
+  padding: 0;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  background: #ffcd22;
+}
+
+body {
+  display: none;
+}
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  font-size: 6rem;
+  color: white;
+  text-align: center;
+  margin: 0 auto 20px auto;
+  padding: 0;
+  line-height: 60px;
+  line-height: 6rem;
+}
+
+h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  font-size: 2.5rem;
+  color: white;
+  text-align: center;
+  margin: 0 auto 40px auto;
+  padding: 0;
+}
+
+h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 35px;
+  font-size: 3.5rem;
+  letter-spacing: 0.75rem;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+p {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 12.5px;
+  font-size: 1.25rem;
+}
+
+.wrapper {
+  width: 100%;
+  display: none;
+}
+
+.title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 55px;
+  font-size: 5.5rem;
+  line-height: 55px;
+  line-height: 5.5rem;
+  color: white;
+  text-align: center;
+  margin: 10px auto 20px auto;
+}
+
+.title span {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 35px;
+  font-size: 3.5rem;
+  letter-spacing: 0.75rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.wes {
+  text-align: center;
+}
+
+.wes img {
+  width: 300px;
+  border-radius: 50%;
+  background: white;
+  padding: 10px;
+}
+
+.choose {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  font-size: 3rem;
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  padding: 0;
+}
+
+.search {
+  width: 100%;
+  margin: 10px auto 20px auto;
+  text-align: center;
+}
+
+.search select {
+  width: 300px;
+  height: 40px;
+  color: white;
+  border-color: white;
+  font-size: 1.75rem;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.search option {
+  color: #444444;
+}
+
+.holder {
+  width: 100%;
+  margin: 30px auto;
+  padding: 60px 0;
+  display: none;
+  background: rgba(255, 255, 255, 0.25);
+  border-top: 4px solid white;
+  border-bottom: 4px solid white;
+}
+
+.paletteHolder {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.colours {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 15px;
+}
+
+.colours p {
+  margin-top: 110px;
+}
+
+.bg {
+  width: 100%;
+}
+
+.bottle_bg {
+  background: url("images/bottlerocketbg.jpg") no-repeat top fixed;
+  background-size: cover;
+}
+
+.castello_bg {
+  background: url("images/castellobg.jpg") no-repeat top fixed;
+  background-size: cover;
+}
+
+.darjeeling_bg {
+  background: url("images/darjeelingbg.jpg") no-repeat top fixed;
+  background-size: cover;
+}
+
+.fox_bg {
+  background: url("images/foxbg.jpg") no-repeat top fixed;
+  background-size: cover;
+}
+
+.grandbudapest_bg {
+  background: url("images/budabg.jpg") no-repeat top fixed;
+  background-size: cover;
+}
+
+.hotelchevalier_bg {
+  background: url("images/hotelbg.jpg") no-repeat top fixed;
+  background-size: cover;
+}
+
+.lifeaquatic_bg {
+  background: url("images/lifeaquaticbg.jpg") no-repeat top fixed;
+  background-size: cover;
+}
+
+.moonrise_bg {
+  background: url("images/moonrisebg.jpg") no-repeat top fixed;
+  background-size: cover;
+}
+
+.rushmore_bg {
+  background: url("images/rushmorebg.jpg") no-repeat top fixed;
+  background-size: cover;
+}
+
+.tenenbaums_bg {
+  background: url("images/royalbg.jpg") no-repeat top fixed;
+  background-size: cover;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  margin: 10px auto;
+  z-index: 50;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.social {
+  width: 100px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding: 0;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  h1 {
+    font-size: 50px;
+    font-size: 5rem;
+    line-height: 50px;
+    line-height: 5rem;
+    padding: 0;
+  }
+
+  h2 {
+    font-size: 17.5px;
+    font-size: 1.75rem;
+    padding: 0;
+  }
+
+  h3 {
+    font-size: 25px;
+    font-size: 2.5rem;
+    padding: 0;
+  }
+}

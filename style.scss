@@ -1,0 +1,238 @@
+// -------------------------------------------
+// PARTIALS
+// -------------------------------------------
+
+@import "reset";
+@import "variables";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600,700);
+
+// -------------------------------------------
+// GLOBAL
+// -------------------------------------------
+
+html {
+	margin: 0;
+	padding: 0;
+	font-size: 10px;
+	background: $yellow;
+}
+body {
+	display: none;
+}
+h1 {
+	@include boldFont;
+	font-size: 60px;
+	font-size: 6rem;
+	color: white;
+	text-align: center;
+	margin: 0 auto 20px auto;
+	padding: 0;
+	line-height: 60px;
+	line-height: 6rem;
+}
+h2 {
+	@include normalFont;
+	font-size: 25px;
+	font-size: 2.5rem;
+	color: white;
+	text-align: center;
+	margin: 0 auto 40px auto;
+	padding: 0;
+}
+h3 {
+	@include lightFont;
+	font-size: 35px;
+	font-size: 3.5rem;
+	letter-spacing: 0.75rem;
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+	margin: 0;
+	margin-bottom: 20px;
+	padding: 0;
+}
+p {
+	color: white;
+	@include normalFont;
+	font-size: 12.5px;
+	font-size: 1.25rem;
+}
+
+// -------------------------------------------
+// CONTENT
+// -------------------------------------------
+
+.wrapper {
+	width: 100%;
+	display: none;
+}
+.title {
+	@include boldFont;
+	font-size: 55px;
+	font-size: 5.5rem;
+	line-height: 55px;
+	line-height: 5.5rem;
+	color: white;
+	text-align: center;
+	margin: 10px auto 20px auto;
+}
+	.title span {
+		@include lightFont;
+		font-size: 35px;
+		font-size: 3.5rem;
+		letter-spacing: 0.75rem;
+		text-align: center;
+		text-transform: uppercase;
+	}
+.wes {
+	text-align: center;
+}
+.wes img {
+	width: 300px;
+	border-radius: 50%;
+	background: white;
+	padding: 10px;
+}
+.choose {
+	@include normalFont;
+	font-size: 30px;
+	font-size: 3rem;
+	color: white;
+	text-align: center;
+	margin-top: 10px;
+	padding: 0;
+}
+.search {
+	width: 100%;
+	margin: 10px auto 20px auto;
+	text-align: center;
+}
+.search select {
+	width: 300px;
+	height: 40px;
+	color: white;
+	border-color: white;
+	font-size: 1.75rem;
+	background: rgba(255,255,255,0.3);
+}
+.search option {
+	color: $black;
+}
+.holder {
+	width: 100%;
+	margin: 30px auto;
+	padding: 60px 0;
+	display: none;
+	background: rgba(255,255,255,0.25);
+	border-top: 4px solid white;
+	border-bottom: 4px solid white;   
+}
+.paletteHolder {
+	margin-top: 30px;
+	text-align: center;
+}
+.colours {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	display: inline-block;
+	margin: 15px;
+}
+	.colours p {
+		margin-top: 110px;
+	}
+.bg {
+	width: 100%;
+}
+.bottle_bg {
+	background: url('images/bottlerocketbg.jpg') no-repeat top fixed;
+	background-size: cover;
+}
+
+.castello_bg {
+	background: url('images/castellobg.jpg') no-repeat top fixed;
+	background-size: cover;
+}
+
+.darjeeling_bg {
+	background: url('images/darjeelingbg.jpg') no-repeat top fixed;
+	background-size: cover;
+}
+
+.fox_bg {
+	background: url('images/foxbg.jpg') no-repeat top fixed;
+	background-size: cover;
+}
+
+.grandbudapest_bg {
+	background: url('images/budabg.jpg') no-repeat top fixed;
+	background-size: cover;
+}
+
+.hotelchevalier_bg {
+	background: url('images/hotelbg.jpg') no-repeat top fixed;
+	background-size: cover;
+}
+
+.lifeaquatic_bg {
+	background: url('images/lifeaquaticbg.jpg') no-repeat top fixed;
+	background-size: cover;
+}
+
+.moonrise_bg {
+	background: url('images/moonrisebg.jpg') no-repeat top fixed;
+	background-size: cover;
+}
+
+.rushmore_bg {
+	background: url('images/rushmorebg.jpg') no-repeat top fixed;
+	background-size: cover;
+}
+
+.tenenbaums_bg {
+	background: url('images/royalbg.jpg') no-repeat top fixed;
+	background-size: cover;
+}
+footer {
+	color: white;
+	text-align: center;
+	margin: 10px auto;
+	z-index: 50;
+}
+	footer a {
+		text-decoration: none;
+		color: white;
+	}
+.social {
+	width: 100px;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	padding: 0;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+	h1 {
+		font-size: 50px;
+		font-size: 5rem;
+		line-height: 50px;
+		line-height: 5rem;
+		padding: 0;
+	}
+	h2 {
+		font-size: 17.5px;
+		font-size: 1.75rem;
+		padding: 0;
+	}
+	h3 {
+		font-size: 25px;
+		font-size: 2.5rem;
+		padding: 0;
+	}
+
+}
+
+
